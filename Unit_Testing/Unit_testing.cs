@@ -14,7 +14,7 @@ namespace Unit_Testing
     {
 
         [Test]
-        public void TestGetLength_input3_expectLength3()
+        public void TestGetLength_input3_expectLength3() //Testing GetLength() Method
         {
             int l = 3, w = 4;
             Rectangle testrectangle = new Rectangle(l,w);
@@ -23,7 +23,7 @@ namespace Unit_Testing
         }
 
         [Test]
-        public void TestSetLength_input3_expectLength3()
+        public void TestSetLength_input3_expectLength3() //Testing SetLength() Method
         {
             int l = 3, w = 4;
             Rectangle testrectangle = new Rectangle(l, w);
@@ -32,7 +32,7 @@ namespace Unit_Testing
         }
 
         [Test]
-        public void TestGetWidth_input8_expectWidth8()
+        public void TestGetWidth_input8_expectWidth8() //Testing GetWidth() Method
         {
             int l = 4, w = 8;
             Rectangle testrectangle = new Rectangle(l, w);
@@ -41,7 +41,7 @@ namespace Unit_Testing
         }
 
         [Test]
-        public void TestSetWidth_input8_expectWidth8()
+        public void TestSetWidth_input8_expectWidth8() //Testing SetWidth() Method
         {
             int l = 4, w = 8;
             Rectangle testrectangle = new Rectangle(l, w);
@@ -50,7 +50,7 @@ namespace Unit_Testing
         }
 
         [Test]
-        public void TestPerimeter_input4_expectPerimeter16()
+        public void TestPerimeter_input4_expectPerimeter16() //Testing GetPerimeter() Method
         {
             int l = 4, w = 4, p = 16;
             Rectangle testrectangle = new Rectangle(l, w);
@@ -59,7 +59,7 @@ namespace Unit_Testing
         }
 
         [Test]
-        public void TestArea_input4_expectArea16()
+        public void TestArea_input4_expectArea16() //Testing GetArea() Method
         {
             int l = 4, w = 4, a = 16;
             Rectangle testrectangle = new Rectangle(l, w);

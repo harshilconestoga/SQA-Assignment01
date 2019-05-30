@@ -8,13 +8,13 @@ namespace Rectangle_Area_Calculator
     {
         private int length, width;
 
-        public Rectangle()
+        public Rectangle() // Default constructor
         {
             length = 1;
             width = 1;
         }
 
-        public Rectangle(int length, int width)
+        public Rectangle(int length, int width) // Non-default constructor
         {
             this.length = length;
             this.width = width;
@@ -44,12 +44,12 @@ namespace Rectangle_Area_Calculator
 
         public int GetPerimeter()
         {
-            return 2 * (length + width);
+            return 2 * (length + width); // Return perimeter
         }
 
         public int GetArea()
         {
-            return (length * width);
+            return (length * width); // Return Area
         }
     }
 }

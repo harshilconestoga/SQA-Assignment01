@@ -16,7 +16,7 @@ namespace Rectangle_Area_Calculator
             try
             {
                 Rectangle rect = new Rectangle();
-                while (true)
+                while (true) //infinite loop until user exits
                 {
                     do
                     {
@@ -24,8 +24,8 @@ namespace Rectangle_Area_Calculator
                         Console.WriteLine("User Menu:");
                         Console.WriteLine("1.Get Rectangle Length \n2.Change Rectangle Length \n3.Get Rectangle Width \n4.Change Rectangle Width \n5. Get Rectangle Perimeter \n6. Get Rectangle Area \n7. Exit");
                         Console.WriteLine("Enter your choice: ");
-                        menu_item = Convert.ToInt32(Console.ReadLine());
-                        if (menu_item >= 1 && menu_item <= 7)
+                        menu_item = Convert.ToInt32(Console.ReadLine()); //Getting user input in integer
+                        if (menu_item >= 1 && menu_item <= 7) //Check if user is selecting a valid menu item
                         {
                             choice = true;
                         }
@@ -33,7 +33,7 @@ namespace Rectangle_Area_Calculator
                         {
                             Console.WriteLine("Please provide a valid input!");
                         }
-                    } while (choice == false);
+                    } while (choice == false); // Loop until user enters correct input
 
 
                     switch (menu_item)
@@ -84,13 +84,13 @@ namespace Rectangle_Area_Calculator
                             break;
 
                         case 7:
-                            Environment.Exit(0);
+                            Environment.Exit(0); //Exit the program
                             break;
                     }
                 }
             }
 
-            catch (Exception e)
+            catch (Exception e) // Catching input exceptions
             {
                 Console.WriteLine("Invalid input \nProgram will now exit");
             }
