@@ -5,3 +5,6 @@ F:\Sharifi sqa\Rectangle_Area_Calculator\Rectangle_Area_Calculator\obj\Debug\Rec
 F:\Sharifi sqa\Rectangle_Area_Calculator\Rectangle_Area_Calculator\obj\Debug\Rectangle_Area_Calculator.csproj.CoreCompileInputs.cache
 F:\Sharifi sqa\Rectangle_Area_Calculator\Rectangle_Area_Calculator\obj\Debug\Rectangle_Area_Calculator.exe
 F:\Sharifi sqa\Rectangle_Area_Calculator\Rectangle_Area_Calculator\obj\Debug\Rectangle_Area_Calculator.pdb
+F:\Sharifi sqa\Rectangle_Area_Calculator\Rectangle_Area_Calculator\bin\Debug\nunit.framework.dll
+F:\Sharifi sqa\Rectangle_Area_Calculator\Rectangle_Area_Calculator\bin\Debug\nunit.framework.xml
+F:\Sharifi sqa\Rectangle_Area_Calculator\Rectangle_Area_Calculator\obj\Debug\Rectangle_Area_Calculator.csproj.CopyComplete

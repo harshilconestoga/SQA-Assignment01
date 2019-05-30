@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Rectangle_Area_Calculator
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {

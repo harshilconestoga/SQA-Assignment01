@@ -39,7 +39,7 @@ namespace Rectangle_Area_Calculator
         public int SetWidth(int width)
         {
             this.width = width;
-            return length;
+            return width;
         }
 
         public int GetPerimeter()
